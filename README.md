@@ -1,4 +1,4 @@
-FORK FORM MIXOOL
+FORK FORM MIXOOL*
 使用[@linhua](https://github.com/linhua55/lkl_study)的黑科技rinetd为OVZ构架的VPS开启bbr,**适用于CentOS/RHEL7+，Ubuntu15+，Debian8+**
 ***
 #### 下载rintd二进制文件(原版bbr和修改版bbr二选一即可):
@@ -7,13 +7,13 @@ FORK FORM MIXOOL
   * 修改权限:  
 `chmod +x rinetd`
 #### 修改rinetd的配置文件rinetd.conf,添加监听地址:
-`vi rinetd.conf`
+`vim /root/rinetd.conf`
 ```Bash
 # bindadress bindport connectaddress connectport
 0.0.0.0 8388 0.0.0.0 8388
 ```
 #### 设置开机启动
-`vi /etc/systemd/system/rinetd.service`
+`vim /etc/systemd/system/rinetd.service`
 ```Bash
 [Unit]
 Description=rinetd
