@@ -1,8 +1,8 @@
 FORK FORM MIXOOL*
 最推荐的一键脚本：
-             
-                  wget "https://github.com/linhua55/lkl_study/releases/download/v1.2/rinetd_bbr_powered" -O /usr/bin/rinetd
-                  curl https://raw.githubusercontent.com/linhua55/lkl_study/master/get-rinetd.sh | bash
+  
+    wget "https://github.com/linhua55/lkl_study/releases/download/v1.2/rinetd_bbr_powered" -O /usr/bin/rinetd
+    curl https://raw.githubusercontent.com/linhua55/lkl_study/master/get-rinetd.sh | bash
                   
  （bbr原版）
 使用[@linhua](https://github.com/linhua55/lkl_study)的黑科技rinetd为OVZ构架的VPS开启bbr,**适用于CentOS/RHEL7+，Ubuntu15+，Debian8+**
